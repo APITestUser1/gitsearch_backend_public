@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitSearch Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="{% static 'frontend/react.development.js' %}"></script>
+  <script src="{% static 'frontend/react-dom.development.js' %}"></script>
+  <script src="{% static 'frontend/babel.min.js' %}"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel" src="{% static 'frontend/app.jsx' %}"></script>
+</body>
+</html>
